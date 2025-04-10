@@ -1,0 +1,149 @@
+html, body {
+    font-family: "Sour Gummy";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container .menubar {
+    background-color: #E76236;
+    color: black;
+    padding: 20px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items:flex-end;
+}
+
+.container nav{
+    background-color: #E76236;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menubar a:visited {
+    color: black; 
+}
+
+.menubar a:hover,
+.menubar a:focus {
+    color: #E76236 !important;
+    background: #FFC857;
+    
+}
+
+
+.container .menubar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display:flex;
+    background-color: #E76236;
+    flex-direction: column;
+}
+
+
+.container .menubar li {
+    margin-right: 20px;
+}
+
+ .stripes{
+    height: 10rem;
+    width: 70%;
+    background-image: url("../img/cartoonarches.jpeg");
+    display:flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+
+}
+
+ .small{
+    background-color: #E76236;
+    flex-basis: 5rem;
+    margin-right: 7%;
+}
+
+ .medium{
+    background-color:#E76236;
+    flex-basis: 5rem;
+    margin-right: 14%;
+}
+.large{
+    background-color: #E76236;
+    flex-basis: 5rem;
+    margin-right: 16%;
+}
+
+ .xlarge{
+    background-color: #E76236;
+    flex-basis: 5rem;
+    margin-right: 35%;
+}
+
+.container .head {
+    background-color: #E76236;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.welcome {
+    font-size: 50px;
+}
+
+.image-section {
+    display: flex;
+    gap: 20px;  
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin: 15px;
+}
+
+
+.image-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.image-left {
+    display: flex;
+    flex-direction: column;  
+   justify-content: space-between;
+    width: 200px;
+}
+
+
+/*.image-left img .image-bottom,
+.image-right .image-top,
+.image-right {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}*/
+
+.image-left img {
+    max-width: 100%;   
+}
+
+.image-right img {
+    max-width: 100%;  
+}
+
+main .text{
+ padding: 20px;
+}
+
+.container .foot {
+    background-color: #E76236;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
